@@ -37,7 +37,10 @@ body{
 }
 @media (max-width:500px){
     .search-wrapper{
-        grid-template-columns: repeat(1, 1fr);
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        flex-wrap:wrap;
     }
     .container{
         width: 90%;
