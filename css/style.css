@@ -43,6 +43,12 @@ body{
         width:100%;
         flex-wrap:wrap;
     }
+    
+.search-wrapper button,
+
+.search-wrapper input{
+    width:100%;
+}
     .container{
         width: 90%;
     }
