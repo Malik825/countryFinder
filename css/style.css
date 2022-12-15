@@ -35,7 +35,7 @@ body{
     grid-template-columns: 8fr 4fr;
     gap: 1.25rem;
 }
-@media (max-width:500px){
+/* @media (max-width:500px){
     .search-wrapper{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -50,7 +50,7 @@ width: 50%;
 margin:.5rem 0 .5rem;
     }
     
-}
+} */
 .search-wrapper button{
     font-size: 1rem;
     background-color: #3d64e6;
