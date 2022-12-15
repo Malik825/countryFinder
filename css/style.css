@@ -22,8 +22,8 @@ body{
 .container{
     background-color: #fff;
     padding: 2em 1.5em;
-    width: 450px;
-    max-width: 100%;
+    width: 40vw;
+    max-width: 90vw;
     border-radius: .62em;
     box-shadow: 0 1.26em 1.8em rgba(0, 21, 65, .25);
      margin: 3.7em;
@@ -50,7 +50,8 @@ body{
     width:100%;
 }
     .container{
-        width: 95%;
+        max-width:100vw;
+        width: 95vw !important;
     }
     #results{
         margin-top: 0.5rem;
