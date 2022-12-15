@@ -6,10 +6,10 @@ let closeResults = ()=>{
 
 }
 countryInput.addEventListener('click', closeResults)
-searchBtn.addEventListener('click', async()=>{
+searchBtn.addEventListener('click', ()=>{
   document.querySelector('#results').classList.remove('active');
     
-    let countryName = await countryInput.value;
+    let countryName = countryInput.value;
     let finalURL = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`;
 
     fetch(finalURL).then((response)=>response.json())
