@@ -52,7 +52,7 @@ transform:translate(-50%, -50%);
     .container{
         max-width:100vw;
         /* background:#f00; */
-        width: 95vw !important;
+        width: 85vw !important;
     }
     #results{
         margin-top: 0.5rem;
